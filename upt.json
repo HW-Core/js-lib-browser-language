@@ -1,11 +1,16 @@
 {
-  "name": "hw2/modules/js/src/library/browser/language",
+  "name": "hw2/modules/js/src/kernel",
+  "license": "http://www.hyperweb2.com/terms",
+  "dependencies": {
+    "%common": "hw2-core/js-library-browser-common#*"
+  },
   "devDependencies": {
     "%tests": "hw2-core/js-library-browser-language#tests",
     "%doc": "hw2-core/js-library-browser-language#doc"
   },
+  "_comment_keep": "ensure we keep the right git repository configurations",
   "keep": [
     ".git/config"
   ],
-  "license": "http://www.hyperweb2.com/terms"
+  "version": "0.0.1"
 }
