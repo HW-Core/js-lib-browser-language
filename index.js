@@ -6,8 +6,8 @@
 'use strict';
 
 hw2.define([
-    'hw2!PATH_JS_LIB:browser/language/include.js',
-    'hw2!PATH_JS_LIB:browser/language/Language.js'
+    'hw2!{PATH_JS_LIB}browser/language/include.js',
+    'hw2!{PATH_JS_LIB}browser/language/Language.js'
 ],function () {
     var $ = this;
 });
