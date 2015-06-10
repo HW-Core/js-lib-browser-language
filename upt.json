@@ -1,5 +1,5 @@
 {
-    "name": "hwcore/modulesjs/src/library/browser/language/tests",
+    "name": "hwcore/modules/js/src/library/browser/language/tests",
     "license": "http://www.hyperweb2.com/terms",
     "dependencies": {
         "%parent-lib": "hw-core/js-library-browser-language"
