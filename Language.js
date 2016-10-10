@@ -6,8 +6,8 @@
 'use strict';
 
 hwc.define([
-    "hwc!{PATH_JS_LIB}browser/language/include.js",
-    "hwc!{PATH_JS_LIB}browser/router/index.js"
+    "hwc!{PATH_JS_LIB}browser-language/include.js",
+    "hwc!{PATH_JS_LIB}browser-router/index.js"
 ], function () {
     var $ = this;
     $.Browser.Language = $.Class({base: $.Object, use: [$.Singleton], members: [

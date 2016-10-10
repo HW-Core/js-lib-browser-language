@@ -6,8 +6,8 @@
 'use strict';
 
 hwc.define([
-    'hwc!{PATH_JS_LIB}browser/language/include.js',
-    'hwc!{PATH_JS_LIB}browser/language/Language.js'
+    'hwc!{PATH_JS_LIB}browser-language/include.js',
+    'hwc!{PATH_JS_LIB}browser-language/Language.js'
 ],function () {
     var $ = this;
 });
